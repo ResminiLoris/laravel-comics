@@ -28,7 +28,7 @@
             </div>
         </div>
     </header>
-    <section class="container-fluid">
+    <section class="container-fluid p-0">
         <div class="illustration"></div>
     </section>
 </div>

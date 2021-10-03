@@ -11282,6 +11282,10 @@ ul {
 .header #main-row {
   height: 150px;
 }
+.header .illustration {
+  height: 350px;
+  background-image: url("../images/jumbotron.jpg");
+}
 
 .footer {
   background-image: url("../images/footer-bg.jpg");

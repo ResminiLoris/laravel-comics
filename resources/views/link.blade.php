@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    @include('includes.header');
+    @include('includes.header')
     @include('includes.article')
-    @include('includes.footer');
+    @include('includes.footer')
 </body>
 </html>
