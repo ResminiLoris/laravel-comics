@@ -1,0 +1,15 @@
+#article{
+    .banner{
+        height: 100px;
+        background-color: dodgerblue;
+    }
+    #main-row{
+        height: 300px;
+        .banner-green{
+            background-color: #55BA59;
+        }
+    }
+    #secondary-row{
+        height: 300px;
+    }
+}

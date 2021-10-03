@@ -1,0 +1,27 @@
+.header{
+  figure{
+    display: inline-block;
+  }
+
+  .row{
+    align-items: center;
+  }
+  
+  ul{
+    li{
+      display: inline-block;
+      font-size: 18px;
+      a{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 55px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        
+      }
+    }
+  }
+  #main-row{
+    height: 150px;
+  }
+}

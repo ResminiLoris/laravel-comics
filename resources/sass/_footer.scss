@@ -1,0 +1,38 @@
+.footer{
+    background-image: url('../images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .row{
+        display: flex;
+    }
+    .row.main{
+        align-items: center;
+    }
+    .col-6{
+        width: calc(100% / 2);
+    }
+    .col-4{
+        width: calc(100% / 3);
+    }
+    .list-title{
+        padding-bottom: 10px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: lightgray;
+    }
+    
+    #links{
+        li{
+            padding-bottom: 5px;
+            a{
+                color: gray;
+                &:hover{
+                    border-bottom: 2px solid #0C7CEC;
+                }
+            }
+        }
+    }
+}
