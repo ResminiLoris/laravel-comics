@@ -9,6 +9,7 @@
 </head>
 <body>
 @include('includes.header')
+@include('includes.comics')
 @include('includes.footer')
 </body>
 </html>

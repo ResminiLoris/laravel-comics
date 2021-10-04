@@ -1,0 +1,35 @@
+.jumbo{
+    background-color: #1C1C1C;
+    color: white;
+    .blue-title{
+        background-color: #0C7CEC;
+        display: inline-block;
+        padding: 20px 35px;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        position: relative;
+        bottom: 30px;
+    }
+    .comics-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-direction: row;
+        
+        .btn{
+          background-color: #0C7CEC;
+          padding: 10px 25px;
+          font-weight: bolder;
+          text-transform: uppercase;
+          &:hover{
+            cursor: pointer;
+          }
+          &:active{
+            background-color: #00439C;
+          }
+        }
+    } 
+}

@@ -4,7 +4,9 @@
             <div class="col-2">
                 <!-- logo -->
                 <figure>
-                    <img src="{{asset('images/dc-logo.png')}}" alt="">
+                    <a class="border-0" href="{{route('home')}}">
+                        <img src="{{asset('images/dc-logo.png')}}" alt="">
+                    </a>
                 </figure>
             </div>
             <div class="col-10">
@@ -12,7 +14,7 @@
                 <nav>
                     <section id="links" class="row">
                         <ul>
-                            <li> <a href="{{route('link')}}">characters</a></li>
+                            <li> <a href="#">characters</a></li>
                             <li> <a href="#">comics</a></li>
                             <li> <a href="#">movies</a></li>
                             <li> <a href="#">tv</a></li>

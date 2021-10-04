@@ -1,0 +1,16 @@
+.card{
+    width: calc(100% / 6);
+    background-color: #1C1C1C;
+    border: 0;
+    &:hover{
+        cursor: pointer;
+    }
+    .comic-cover{
+        height: 200px;
+        width: 100%;
+        overflow:hidden;
+    }
+    .btn{
+        width:inherit;
+    }
+}
